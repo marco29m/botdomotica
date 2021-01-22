@@ -106,7 +106,7 @@ def action(msg):
 	if 's' in command :
 		mixer.music.stop
 
-telegram_bot = telepot.Bot('1576472367:AAEGUfU1bBOtw_JN7v1LNBkKM67UsZbUkKE')
+telegram_bot = telepot.Bot('botkey')
 print (telegram_bot.getMe())
 
 MessageLoop(telegram_bot, action).run_as_thread()
